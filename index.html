@@ -19,6 +19,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Great+Vibes&family=Lobster&family=Permanent+Marker&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/animate.css">
 </head>
 <body>
     <header class="head">
@@ -38,7 +39,7 @@
     <main class="principal">
         <h2 class="galeria__destacados"> <a href="destacado.html"> Galeria de destacados</a></h2>
         <div class="container">
-            <img src="imagenes/plant1.jpg" alt="" class="plant1">
+            <img src="imagenes/plant1.jpg" alt="" class="wow bounceIn">
             <img src="imagenes/plant2.jpg" alt="" class="plant2">
             <img src="imagenes/cactus.jpg   " alt="" class="plant3">
             <img src="imagenes/plant3.jpg" alt="" class="plant4">
@@ -59,5 +60,9 @@
         <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
         <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
     </footer>
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
     </body>
     </html>
