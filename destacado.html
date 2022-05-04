@@ -9,6 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gaia garden</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="archivo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,27 +28,52 @@
 <body>
     <header class="head__galeria">
         <h1> <section class="mainlogo">Gaia</section>
-        <nav class="bar">
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+                <div class="container-fluid">
+                    </button>
+                    <div class="collapse navbar-collapse" id="mynavbar">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:void(0)">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:void(0)">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:void(0)">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:void(0)"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="text" placeholder="Escriba aquí">
+                            <button class="btn btn-primary" type="button">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        <!--<nav class="bar">
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="../resources/contacto.html">Contacto</a></li>
                 <li><a href="../resources/productos.html">Productos</a></li>
                 <li><a href="../resources/tienda.html"> <i class="fa-solid fa-cart-shopping" ></i></a></li>
-                </ul> <input type="text" placeholder="Buscar"> </nav>
+                </ul> <input type="text" placeholder="Buscar"> </nav>-->
         </h1>
     </header>
     <main class="principal">
         <section class="galeria">Galeria</section>
         <div class="imgbox">
-            <img src="../imagenes/plant1.jpg" alt="" class="plant p1">
-            <img src="../imagenes/plant2.jpg" alt="" class="plant p2">
-            <img src="../imagenes/cactus.jpg   " alt="" class="plant p3">
-            <img src="../imagenes/plant3.jpg" alt="" class="plant p4">
-            <img src="../imagenes/grass-g51bcb9d5d_640.jpg" alt="" class="plant p5">
-            <img src="../imagenes/bonsai-gc7173a5d7_640.jpg" alt="" class="plant p7">
-            <img src="../imagenes/cacti-g26eb9eb70_640.jpg" alt="" class="plant p8">
-            <img src="../imagenes/fat-plants-gc21a71fc0_640.jpg" alt="" class="plant p9">
-            <img src="../imagenes/plant-pot-ga0ffd29c8_640.jpg" alt="" class="plant p10">
+            <img src="../imagenes/plant1.jpg" alt="" class="rounded p1">
+            <img src="../imagenes/plant2.jpg" alt="" class="rounded p2">
+            <img src="../imagenes/cactus.jpg   " alt="" class="rounded p3">
+            <img src="../imagenes/plant3.jpg" alt="" class="rounded p4">
+            <img src="../imagenes/grass-g51bcb9d5d_640.jpg" alt="" class="rounded p5">
+            <img src="../imagenes/bonsai-gc7173a5d7_640.jpg" alt="" class="rounded p7">
+            <img src="../imagenes/cacti-g26eb9eb70_640.jpg" alt="" class="rounded p8">
+            <img src="../imagenes/fat-plants-gc21a71fc0_640.jpg" alt="" class="rounded p9">
+            <img src="../imagenes/plant-pot-ga0ffd29c8_640.jpg" alt="" class="rounded p10">
     </main>
     <footer class="pie">
         <i class="pie__sub">Gaia botanica S.R.L, Av. Nevada 892, Terminos y condiciones</i>

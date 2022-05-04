@@ -25,11 +25,8 @@ nav li a:hover{
 }
 .imgbox img:hover{
     height: 80%;
-    width: 80%;
+    width: 90%;
     transition: 1s;
-}
-input::placeholder{
-    color: rgb(77, 191, 236);
 }
 .mainlogo{
     animation-name: displacement;
@@ -57,7 +54,7 @@ input::placeholder{
     }
     70%{
         width: 78%;
-        background-color: rgb(187, 247, 99);
+        background-color: rgba(188, 247, 99, 0.589);
     }
     80%{
         width: 85%;
@@ -109,6 +106,7 @@ input::placeholder{
         color: rgb(248, 248, 248);
         text-transform: uppercase;
         display: block;
+        text-shadow: 0 0 15px black
         /*padding: 20px*/;
     }
     .bar li{
@@ -399,12 +397,12 @@ input::placeholder{
     }
     .descripcion{
         color: rgb(95, 78, 204);
-        font-size: 26px;
+        font-size: 5rem;
         font-family: 'Dancing Script', cursive;
         font-weight: 300;
     }
     .descripcion__caract{
-        font-size: 18px;
+        font-size: 2.5rem;
         font-style: normal;
         font-family: 'Dancing Script';
         color: rgb(118, 3, 185);
@@ -687,7 +685,7 @@ input::placeholder{
     font-family: 'Lobster', cursive;
     font-weight: bolder;
     text-align: center;
-    border: 2px solid rgba(223, 50, 223, 0.788);
+    border: 2px solid rgba(223, 50, 223, 0.76);
     border-radius: 30%;
     }
 .logo_prov{
@@ -701,4 +699,30 @@ input::placeholder{
     height: 40px;
     background-color: springgreen;
         background-image: linear-gradient(to top, rgb(110, 255, 66), rgba(225, 0, 255, 0.521));
+}
+.carousel-indicators [data-bs-target]{
+    background-color: rgba(58, 182, 231, 0.616);
+    border-radius: 35px;
+    height: 15px;
+}
+.bg-dark{
+    background-color: #9007eb65 !important;
+}
+.mainlogo{
+    text-shadow: 0 0 10px rgba(206, 131, 20, 0.918);
+}
+.nav-link{
+    color: #3305F6 !important;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5rem;
+    text-shadow: 0 0 12px rgb(52, 6, 73), 0 0 15px rgba(7, 3, 12, 0.705);
+}
+input::placeholder{
+    color: #AB04D4 !important;
+}
+.list-group-item {
+    color: #aa04d4c5;
+    font-family: 'Dancing Script';
+    font-weight: 900;
+    text-transform: uppercase;
 }
